@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body onload="mostrarNotas()">
+
+    <img id="logo" src="./img/Hogwarts-Logo.png" alt="" width="25%">
+    <br><br>
+    <h1>¡Bienvenido a tu boletin de notas, Ravenclaw!</h1>
+    <ul id="calificaciones">
+
+    </ul>
+
+    <div class="botones">
+        <button onclick="mostrarNotas()">Mostrar Notas</button>
+        
+
+        <h4>Media: <span id="media"></span></h4>
+        <button onclick="calcularMedia()">Calcular Media </button>
+        
+        <h4>Nota más alta: <span id="notaMasAlta"></span></h4>
+        <button onclick="notaMasAlta()">Ver nota más alta </button>
+        
+        <h4>¿Hubo algún suspenso?: <span id="haySuspenso"></span></h4>
+        <button onclick="haySuspenso()">¿Hay Suspenso? </button>
+
+    
+    </div>
+
+
+</body>
+<br><br><br>
+<footer>
+    <p style="font-style: oblique; color: rgb(32, 122, 178); border: 0.5px solid  rgba(32, 122, 178, 0.324);">Desarrollado por Laucdevs 2024</p>
+</footer>
+
+</html>
