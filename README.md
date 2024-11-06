@@ -1,4 +1,4 @@
-# 🎬 Boletín Hogwarts
+# 📚 Boletín Hogwarts 📄
 
 Bienvenido/a a la **al boletín de notas de un alumnx de la escuela de magia y hechicería Hogwarts**
 
