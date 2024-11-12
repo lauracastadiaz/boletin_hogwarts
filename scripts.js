@@ -47,3 +47,6 @@ function haySuspenso() {
 
   document.getElementById("haySuspenso").textContent = suspenso;
 }
+
+
+
